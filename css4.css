@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(135, 175, 221), rgb(90,20,220));
+}
+.box_login{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    color: white;
+    text-align: center;
+    margin-top: 7em;
+    
+}
+#login{
+    background-color: rgb(128, 30, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    transition: 0.4s;
+    width: 60%;
+}
+
+#login:hover{
+    background-color: rgb(149, 26, 206);
+}
+div{
+    margin-top: 2em;
+}
+.box{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+    color: white;
+}
+.box_index{
+    margin: auto;
+    margin-top: 10em;    
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    width: 15%;
+    color: white;
+    text-align: center;
+
+}
+fieldset{
+    border: 3px solid rgb(128, 30, 255);
+}
+legend{
+    border: 1px solid rgb(128, 30, 255);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(128, 30, 255);
+    border-radius: 10px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    top: 0px;
+    left: 0px;
+    transition: .5s;
+}
+#data_nascimento{
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#submit, #update{
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(143, 168, 197), rgb(90,20,220));
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid rgb(128, 30, 255);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#submit, #update:hover{
+    background-image: linear-gradient(to right, rgb(122, 152, 185), rgb(80,19,195));
+}
+
+a:hover{
+    background-color: rgb(128, 30, 255);
+}
+
+.inputLogin{
+    width: 55%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+nav{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(91, 44, 167);
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.sistema{
+    color: #fff;
+    text-align: center;
+}
+.table-bg{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+}
+.box-search{
+    display: flex;
+    margin: auto;
+    gap: .1%;
+}
