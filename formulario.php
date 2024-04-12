@@ -13,6 +13,7 @@
         $endereco = $_POST['endereco'];
         $senha = $_POST['senha'];
 
+        // Inserindo os usuarios no banco de dados
         $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, telefone, sexo, data_nasc, cidade, estado, endereco, senha) 
         VALUES ('$nome', '$email', '$telefone', '$genero', '$data_nasc', '$cidade', '$estado', '$endereco', '$senha')");
         header("Location: login.php");
@@ -26,7 +27,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="css4.css">
+    <link rel="stylesheet" href="css5.css">
 </head>
 <body>
     <a href="index.php">voltar</a>

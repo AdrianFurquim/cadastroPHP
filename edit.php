@@ -9,6 +9,7 @@
 
         $result = $conexao->query($sqlSelect);
 
+        // Verificando se o resultados da pesquisa possui valores;
         if ($result->num_rows > 0 && !empty($id)) {
             while ($user_data = mysqli_fetch_assoc($result)) {
                 $nome = $user_data['nome'];
@@ -24,6 +25,7 @@
             print_r($nome);
         }else{
             header("Location: sistema.php");
+            // Caso não tenha, retornar ao sistema.php
         }
 
         
@@ -39,7 +41,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="css4.css">
+    <link rel="stylesheet" href="css5.css">
 </head>
 <body>
     <a href="sistema.php">voltar</a>

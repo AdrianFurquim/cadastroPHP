@@ -139,6 +139,6 @@ nav{
 }
 .box-search{
     display: flex;
-    margin: auto;
+    justify-content: center;
     gap: .1%;
 }
