@@ -1,8 +1,14 @@
 # Cadastro PHP
 
 <h4 align="center"> 
-    📁 - Iniciando o Projeto
+    📁 Iniciando o Projeto
 </h4>
-Iniciar a aplicação: O projeto foi feito com o uso de um servidor local (localhost), logo é preciso ter um programa que consiga simular um servidor local em sua maquina, após ligar, 
-é preciso colocar o aquivo que foi baixado deste repositório dentro de uma pasta expecifica, caso faça o uso do Xampp, coloque dentro da pasta htdocs. Abra seu sistema de banco de dados, exporte o modelo 
-do banco deixado junto ao projeto. Após isso, coloque na barra de pesquisa: localhost/caminho onde você colocou o arquivo. 
+
+Para iniciar a aplicação:
+
+1. Configure um servidor local (localhost). Recomendamos o uso do XAMPP.
+2. Coloque os arquivos baixados deste repositório dentro da pasta específica do seu servidor local. Para XAMPP, use a pasta `htdocs`.
+3. Abra seu sistema de banco de dados e importe o modelo do banco de dados fornecido junto com o projeto.
+4. No navegador, acesse o projeto com o seguinte endereço: `localhost/caminho/onde/voce/colocou/o/arquivo`.
+
+---
